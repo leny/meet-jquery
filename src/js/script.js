@@ -6,4 +6,9 @@
  * started at 13/02/2017
  */
 
-console.log( "Hello, world!" );
+$( function() {
+    
+    // 1. a with rel=external
+    $( 'a[rel*="external"]' ).attr( "target", "_new" );
+
+} );
